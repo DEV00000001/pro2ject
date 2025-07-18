@@ -1,0 +1,27 @@
+.sidebar {
+  background-color: #060B26;
+  color: white;
+  position: fixed;
+  width: 200px;
+  left: 0;
+  z-index: 1001;
+  height: 100%;
+  &__button-close {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+  }
+  &__item {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+}

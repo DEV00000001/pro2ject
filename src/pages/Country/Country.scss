@@ -1,0 +1,25 @@
+.country {
+  padding: 30px;
+  position: relative;
+  height: 100%;
+  &__button {
+      padding: 10px 20px;
+      cursor: pointer;
+      &-wrap {
+        margin-bottom: 20px;
+        text-align: end;
+      }
+  }
+  &__table {
+    border-collapse: collapse;
+    width: 100%;
+    thead,tbody {
+      border: 1px solid #ddd;
+    }
+    th,td {
+      border: 1px solid #ccc;
+      padding: 8px 12px;
+      text-align: left;
+    }
+  }
+}
